@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+data/*
+!data/.gitkeep
+
+export/*
+!export/.gitkeep
+
+src/artifacts/*
+!src/artifacts/.gitkeep
