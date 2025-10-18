@@ -1,8 +1,9 @@
-0) Ground rules
+ 
+# 0) Ground rules
+
 	•	main = clean, runnable, submission-ready. Don’t commit directly.
 	•	Do all work on feature branches: feat/<task>, bugfixes on fix/<issue>, chores on chore/<thing>.
 	•	Never push data, model artifacts, or outputs. Keep them local only.
-
 # Clone
 git clone https://github.com/NurulhudaAi/ML_Project_2025.git
 cd ML_Project_2025
@@ -21,9 +22,15 @@ touch data/.gitkeep export/.gitkeep src/artifacts/.gitkeep
 # data/high_salary.live.csv
 
 
+# :: Step for open Jupyter Notebook ::
 
 
-:: Step for open Jupyter Notebook ::
+>> open your cmd 
+
+>> docker compose up
+
+# then open http://localhost:8888
+(project is mounted at /home/jovyan/work)
 
 docker compose up
 # then open http://localhost:8888
