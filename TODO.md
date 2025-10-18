@@ -41,14 +41,13 @@ touch data/.gitkeep export/.gitkeep src/artifacts/.gitkeep
 =======
 # Step for open Jupyter Notebook
 >> open your cmd 
->>>>>>> 5069b4e (docs: update TODO)
 >> docker compose up
 
 # then open http://localhost:8888
 (project is mounted at /home/jovyan/work)
 
 docker compose up
->>>>>>> Stashed changes
+
 # then open http://localhost:8888
 (project is mounted at /home/jovyan/work)
 
