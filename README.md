@@ -1,11 +1,11 @@
-# 💼 High Salary Prediction using Artificial Neural Network (ANN)
+# High Salary Prediction using Artificial Neural Network (ANN)
 
 This project predicts whether an individual earns a **high salary (1)** or **low salary (0)** based on demographic, educational, and occupational data.  
 The goal is to compare several machine learning models and determine which performs best for salary classification.
 
 ---
 
-## 🧩 1. Project Overview
+## 1. Project Overview
 - **Dataset size:** 20,900 census records  
 - **Original features:** 18  
 - **Processed variables:** 49 (after encoding and scaling)  
@@ -23,7 +23,7 @@ To develop, train, and evaluate multiple machine learning models — including *
 
 ---
 
-## 🧹 3. Data Preparation
+## 3. Data Preparation
 1. **Data Loading** – Read train, test, and live datasets  
 2. **Handle Missing Values** – Mode for categorical, mean for numerical  
 3. **Encoding** – Ordinal for `education`, One-Hot for `workclass`, `occupation`, `relationship`, `sex`  
@@ -33,7 +33,7 @@ To develop, train, and evaluate multiple machine learning models — including *
 
 ---
 
-## 🧠 4. Model Development
+## 4. Model Development
 
 ### **Artificial Neural Network (ANN)**
 Implemented using `sklearn.neural_network.MLPClassifier`.
@@ -53,7 +53,7 @@ Models and configurations saved under `model/` folder (`model.joblib`, `config.j
 
 ---
 
-## 📊 5. Evaluation and Results
+## 5. Evaluation and Results
 
 ### **Model Performance (ANN)**
 | Metric | Low Salary (0) | High Salary (1) | Weighted Avg |
@@ -79,7 +79,7 @@ Models and configurations saved under `model/` folder (`model.joblib`, `config.j
 
 ---
 
-## 💬 6. Discussion and Reflection
+## 6. Discussion and Reflection
 
 ### **Trade-offs**
 - ANN offers high accuracy but requires longer training and less interpretability.  
@@ -102,7 +102,7 @@ Models and configurations saved under `model/` folder (`model.joblib`, `config.j
 
 ---
 
-## 🏁 8. Conclusion
+## 8. Conclusion
 The ANN achieved the **highest accuracy (84%)**, outperforming both Random Forest and Logistic Regression.  
 It effectively classified high-income individuals using demographic and occupational features, though further tuning and interpretability improvements are recommended for real-world use.
 
